@@ -1,1 +1,25 @@
+WEEK_4_Problem Statement:
+
+Recruitment is a critical function for every organization, directly impacting its growth and productivity. However, the traditional interview and hiring process is often time-consuming, resource-intensive, and prone to human bias and inconsistency. As organizations scale and embrace remote work environments, these challenges become even more complex.
+Human Resource (HR) teams face several issues such as:
+•	Screening hundreds or thousands of resumes manually.
+•	Scheduling interviews with limited interviewer availability.
+•	Inconsistent evaluation due to subjective judgments.
+•	Lack of real-time feedback and performance metrics.
+•	Increased hiring time and associated costs.
+Furthermore, candidates often experience delays in communication, lack of transparency in the selection process, and non-uniform evaluation criteria, which can negatively affect their impression of the company.
+To address these challenges, there is a pressing need for an intelligent, automated, and scalable interview system that can:
+•	Reduce manual efforts in candidate screening and evaluation.
+•	Ensure fair, consistent, and unbiased assessments.
+•	Provide real-time analytics and insights to recruiters.
+•	Improve the overall efficiency and transparency of the hiring process.
+Smart Hire AI: Interview Platform is designed to solve these problems by leveraging Artificial Intelligence and Machine Learning technologies. The platform provides automated interviews, evaluates candidate responses based on various parameters such as communication skills, technical knowledge, emotional intelligence, and behavioral traits, and delivers detailed performance reports to assist recruiters in making informed hiring decisions.
+By addressing the limitations of traditional recruitment systems, this project aims to build a modern solution that transforms the hiring process into a faster, fairer, and more data-driven experience for both employers and candidates.
+
+Objectives(s) of Work:
+
+The primary objective of this project, Smart Hire AI: Interview Platform, is to develop an intelligent, efficient, and scalable solution to enhance and automate the traditional recruitment and interview process using Artificial Intelligence (AI) and Machine Learning (ML) technologies. The goal is to eliminate the common challenges associated with manual hiring—such as human bias, inconsistent evaluation, scheduling issues, and high time and cost investment—by designing a platform that conducts automated interviews, evaluates candidate responses, and delivers insightful performance analytics to recruiters.
+This project aims to create a virtual interview environment where candidates can participate in interviews remotely via voice, video, or text input. The AI system will automatically generate relevant questions based on job roles and assess responses based on predefined criteria such as communication skills, technical accuracy, fluency, confidence, and emotional tone. Using Natural Language Processing (NLP) and sentiment analysis, the system will analyze the content and delivery of answers to provide objective scoring and feedback.
+Another key objective is to build a user-friendly dashboard for HR professionals, where they can view candidate rankings, performance reports, and insights to support data-driven decision-making. The platform should also ensure fairness and transparency by minimizing unconscious biases that often affect manual evaluation.
+Additionally, the project intends to improve the candidate experience by offering instant feedback, clearer expectations, and flexible interview timing. The system should be secure, scalable, and adaptable to various industries and job roles.
 
