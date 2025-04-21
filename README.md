@@ -1,5 +1,6 @@
 # Btech-DS-
 Sem Project Topic - SmartHire : Ai Interview Platform
+
 Abstract
 
 The recruitment landscape is rapidly evolving with the integration of Artificial Intelligence (AI) technologies aimed at streamlining and enhancing the hiring process. *SmartHire* is an AI-powered interview platform developed to automate and optimize the preliminary stages of recruitment. The objective of this project is to design and implement a scalable and intelligent system capable of conducting interviews, evaluating candidate responses, and generating real-time feedback, thereby reducing human bias and saving valuable time for hiring managers.
