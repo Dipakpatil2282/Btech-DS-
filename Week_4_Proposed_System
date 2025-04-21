@@ -1,0 +1,56 @@
+WEEK_4_PROPOSED SYSTEM
+WORKING OF SYSTEM:
+
+The Smart Hire AI: Interview Platform is designed to automate and enhance the recruitment process through the integration of Artificial Intelligence, Machine Learning, and Natural Language Processing technologies. The system operates through several interconnected modules that collectively ensure a seamless and intelligent interview experience for both recruiters and candidates.
+The process begins with the job role configuration by the recruiter through the admin dashboard. Based on the selected job title, department, and required skill set, the system auto-generates a dynamic set of interview questions. These questions can include multiple-choice, situational, behavioral, or open-ended technical questions. Recruiters also have the option to add custom questions or select from a predefined question bank.
+Candidates receive a link to participate in the interview remotely. The system supports asynchronous interviews, where candidates can record their video, audio, or text responses at their convenience. Once submitted, the AI engine processes each response using a combination of NLP, speech analysis, and machine learning techniques. For text and speech responses, NLP is used to evaluate grammar, content relevance, clarity, and sentiment. In video responses, additional parameters such as eye contact, facial expressions, tone, and confidence level are analyzed using facial emotion detection and voice modulation techniques.
+All responses are scored using predefined evaluation criteria such as communication skills, technical accuracy, confidence, and problem-solving approach. These scores are compiled into an individual candidate report that includes performance metrics, strengths, weaknesses, and an overall recommendation. The recruiter dashboard provides a comprehensive analytics panel where recruiters can view, compare, and filter candidates based on scores, tags, or job roles. The platform also flags top-performing candidates and identifies potential risks (e.g., communication gaps or low confidence).To ensure fairness and avoid bias, the system anonymizes certain personal details during the evaluation stage and uses explainable AI models to justify scoring decisions. Additionally, all data is stored securely, with role-based access control to maintain privacy and confidentiality.
+In essence, Smart Hire AI automates the end-to-end interview process—from question generation to candidate evaluation—while maintaining accuracy, transparency, and efficiency. It not only reduces the burden on HR teams but also ensures that every candidate is evaluated fairly and systematically, regardless of background or location.
+
+Algorithm :
+
+Step 1: Input Job Role & Requirements
+•	Accept input from recruiter: job title, skills required, experience level, interview type (technical/HR/behavioral), and question format (text/audio/video).
+•	Match job role with predefined templates and question banks.
+•	Generate a dynamic set of questions using rule-based logic and AI-powered question generation (for open-ended or technical questions).
+
+Step 2: Candidate Invitation and Interview Interface
+•	Send secure interview link to the candidate.
+•	Provide an interactive interface for candidate to respond via:
+o	Text (typed answers)
+o	Audio (voice recording)
+o	Video (camera and mic-based input)
+
+Step 3: Response Collection and Preprocessing
+•	Store all candidate responses securely.
+•	Preprocess responses based on format:
+o	Text: Tokenization, stemming, stop-word removal.
+o	Audio: Convert speech to text using Speech-to-Text API.
+o	Video: Extract facial features using facial recognition/emotion detection libraries (e.g., OpenCV, DeepFace).
+
+Step 4: Evaluation & Scoring
+•	Apply Natural Language Processing (NLP) for semantic analysis of answers.
+•	Perform sentiment analysis and emotion detection.
+•	Evaluate responses based on:
+o	Relevance to question
+o	Grammar & vocabulary
+o	Confidence & tone (for audio/video)
+o	Facial expressions and emotional stability (for video)
+•	Assign scores to each question based on predefined weights
+
+Step 5: Result Generation
+•	Aggregate individual question scores to generate total score.
+•	Create a candidate profile with:
+o	Technical and soft skill evaluation
+o	Strengths and weaknesses
+o	AI-generated feedback and recommendations
+
+Step 6: Recruiter Dashboard
+•	Display candidate results on the recruiter panel.
+•	Allow filtering, ranking, and shortlisting of candidates.
+•	Visualize results using graphs, charts, and performance indicators
+
+Step 7: Data Storage and Security
+•	Store candidate data, scores, and reports in a secure, encrypted database.
+•	Enforce role-based access control to ensure data privacy and integrity.
+This algorithmensures that the Smart Hire AI platform provides an end-to-end intelligent solution for conducting unbiased, accurate, and efficient interviews.
