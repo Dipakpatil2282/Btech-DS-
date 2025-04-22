@@ -1,5 +1,5 @@
 # Btech-DS-
-Sem Project Topic - SmartHire : Ai Interview Platform
+Sem Project Topic - SmartHire : AI Interview Platform
 
 Abstract
 
