@@ -1,0 +1,34 @@
+WEEK_6_METHODOLOGY
+
+METHODOLOGY:
+
+1. Problem Identification and Requirement Analysis
+We began by identifying the limitations of traditional hiring methods such as human bias, inefficiency, and limited accessibility. Detailed discussions with users (students, recruiters) helped gather functional and non-functional requirements for the system.
+
+2. Literature Review
+A comprehensive review of existing AI-based recruitment systems was conducted to understand their working, benefits, and shortcomings. This helped in identifying innovation points and setting benchmarks for our platform.
+
+3. System Design and Architecture
+The system architecture was planned using a modular, layered design. It includes three main layers: the user interface (frontend), processing layer (AI/ML analysis), and data layer (database). Tools like flowcharts and UML diagrams were used to visualize the structure.
+
+4. Dataset Preparation
+Sample datasets (interview transcripts, audio/video clips) were collected and annotated for training and testing AI models. These datasets helped train the system to understand, evaluate, and score candidate responses.
+
+5. AI/ML Model Integration
+We implemented Natural Language Processing (NLP) for evaluating text/audio responses and used emotion recognition libraries for analyzing facial expressions in video responses. Pre-trained models and APIs were also integrated for speech-to-text conversion and sentiment analysis.
+
+6. Frontend and Backend Development
+The user-friendly interface was built using HTML, CSS, and React.js. The backend logic was implemented using Python and Flask/Django, which handled the AI processing, candidate scoring, and database operations.
+
+7. Interview Workflow Implementation
+A workflow was created to conduct AI-based asynchronous interviews. Candidates could respond to questions in video, audio, or text format, which was then automatically evaluated by the AI engine.
+
+8. Admin & Recruiter Dashboard
+A dynamic dashboard was developed for recruiters to view reports, performance graphs, filter candidates, and generate rankings based on AI-evaluated scores.
+
+9. Testing and Evaluation
+Unit testing, integration testing, and user testing were performed to ensure system stability and accuracy. The AI scoring was cross-verified with manual evaluations to validate results.
+
+10. Deployment and Documentation
+The final system was deployed on a cloud platform for demonstration and testing. Project documentation, user manual, and reports were prepared for submission and future improvements.
+
