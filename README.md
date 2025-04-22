@@ -11,5 +11,6 @@ The project uses Python and frameworks like Flask for backend development, along
 
 SmartHire represents a step forward in digital recruitment solutions by providing an efficient, unbiased, and consistent interview experience. It significantly reduces the workload on HR departments and ensures that only the most suitable candidates proceed to the final stages of hiring. Future enhancements may include integration with video analysis for facial expression recognition and multilingual support.
 
-Keywords: SmartHire, AI Interview Platform, Artificial Intelligence, Natural Language Processing, Machine Learning, Automated Interviews, Recruitment Technology, Candidate Evaluation, HR Automation
+# Keywords: 
+SmartHire, AI Interview Platform, Artificial Intelligence, Natural Language Processing, Machine Learning, Automated Interviews, Recruitment Technology, Candidate Evaluation, HR Automation
 
