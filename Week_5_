@@ -1,0 +1,64 @@
+Week_5_Software and Hardware Requirements
+
+1. Software Requirements
+The Smart Hire AI platform integrates front-end and back-end development with Artificial Intelligence, Machine Learning, and cloud technologies. Below are the required software components:
+
+a. Programming Languages & Frameworks
+
+•	Frontend:
+o	HTML5, CSS3, JavaScript
+o	React.js or Angular (for dynamic UI)
+
+•	Backend:
+o	Python (for AI/ML processing and backend logic)
+o	Node.js (optional, for REST APIs)
+
+b. Libraries and APIs
+
+•	NLP & AI Analysis:
+o	NLTK, SpaCy, or Transformers (for text analysis)
+o	OpenCV or DeepFace (for facial expression detection)
+o	TextBlob / Vader (for sentiment analysis)
+o	Google Speech-to-Text API or CMU Sphinx (for audio transcription)
+
+•	Machine Learning:
+o	Scikit-learn, TensorFlow, or PyTorch
+
+•	Database:
+o	MySQL or MongoDB (to store user and candidate data)
+
+•	Authentication & Security:
+o	JWT (JSON Web Tokens)
+o	OAuth 2.0 (optional for social login or admin access)
+
+c. Development Tools
+•	IDE: Visual Studio Code / PyCharm
+•	Version Control: Git, GitHub or GitLab
+•	Containerization (optional): Docker
+•	Deployment: Heroku / AWS / Google Cloud Platform (for hosting web app and AI services)
+
+d. Operating System
+•	Windows 10/11, Ubuntu 20.04+, or macOS (for development)
+
+
+2. Hardware Requirements
+The hardware requirements depend on whether the application is being used for development, testing, or deployment. Here's a typical setup:
+
+a. For Development (Local Machine)
+•	Processor: Intel i5 or higher (or AMD equivalent)
+•	RAM: Minimum 8 GB (16 GB recommended for AI/ML model training)
+•	Storage: Minimum 256 GB SSD
+•	GPU: NVIDIA GPU (recommended for training heavy AI models; optional if using cloud-based training)
+
+b. For Server/Deployment (Cloud or On-Premises)
+•	CPU: 4-core or higher (cloud instance like AWS EC2 t2.medium or above)
+•	RAM: Minimum 8 GB
+•	Storage: 100 GB SSD (expandable based on dataset size)
+•	GPU (optional): NVIDIA T4/RTX GPU for intensive video/audio processing
+
+c. End User Requirements
+•	Browser: Latest version of Chrome, Firefox, or Edge
+•	Camera & Microphone: Required for video/audio interviews
+•	Internet: Stable connection (minimum 2 Mbps upload/download speed)
+
+This combination of software and hardware ensures that Smart Hire AI runs efficiently, supports real-time data processing, and delivers a seamless user experience for both recruiters and candidates.
