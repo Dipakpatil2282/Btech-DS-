@@ -1,0 +1,22 @@
+WEEK_8_Implementation of Second Module
+
+After successfully setting up the Job Role and Question Configuration module, the second major module implemented was the Candidate Interview Response Collection and Preprocessing module. This part of the system plays a critical role because it directly interacts with candidates and gathers their responses in multiple formats—text, audio, and video—for further AI-based evaluation.
+The implementation started by designing an intuitive candidate interface where users (candidates) can log in securely and access their assigned interview. The frontend for this section was built using HTML, CSS, and React.js, focusing on making it simple, responsive, and compatible across devices (laptops, desktops, and mobiles). Once a candidate logs in, they are presented with the set of questions dynamically fetched from the database based on the job role configured in the first module.
+The candidate can choose to answer each question in one of the following formats:
+
+•	Typed text response: A simple text area box was provided.
+
+•	Audio response: A built-in recorder was embedded using JavaScript and WebRTC APIs to capture real-time audio.
+
+•	Video response: A video recording interface was implemented using WebRTC along with MediaRecorder API, allowing candidates to record answers using their webcam and microphone.
+
+Once a candidate submits a response, the backend built using Flask receives and stores the data securely in a cloud database. For video and audio submissions, the files are first temporarily saved, then preprocessed before being sent for analysis.
+
+preprocessing phase: Preprocessing phase was a crucial part of this module’s implementation. For audio files, we integrated a Speech-to-Text conversion API (Google Speech-to-Text API) to transcribe spoken answers into text, allowing the AI models to perform natural language analysis later. The system also normalizes audio to remove background noise and enhance voice clarity.
+
+video responses: We extracted key frames using OpenCV and used facial analysis libraries (like DeepFace or Face-api.js) to identify facial emotions, attention levels (eye contact), and expressions. Preprocessing of video also involved compressing files to reduce size without losing quality to ensure faster processing and lower storage costs.
+
+Text responses: Were directly tokenized, cleaned (stop-word removal, stemming, lemmatization), and prepared for NLP-based evaluation. All candidate responses are tagged with metadata including timestamps, question ID, response format, and session ID for better tracking and analysis.
+Security and privacy were strictly maintained. 
+Candidate data was encrypted during transmission and storage. Also, auto-timeout features were added to prevent misuse or manipulation during the response recording phase.This module ensures the Smart Hire AI platform can gather diverse types of candidate input in a professional, standardized manner, setting up high-quality data for the AI evaluation module. 
+The robust implementation of this second module significantly enhances the system’s ability to fairly and accurately assess candidates remotely, making the interview process highly efficient and accessible.
