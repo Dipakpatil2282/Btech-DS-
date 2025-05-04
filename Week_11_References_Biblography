@@ -1,0 +1,39 @@
+WEEK_11_REFERENCES_BIBLOGRAPHY
+
+Research Papers & Journals
+1.	Kaur, A., & Bhatia, M. P. S. (2021). AI-Based Recruitment System: A Review. International Journal of Computer Applications, 183(42), 1–6.
+https://doi.org/10.5120/ijca2021921334
+2.	Nagpal, M., & Lal, R. (2020). Use of NLP in Evaluating Candidate Responses for Interview Systems. International Journal of Scientific Research in Computer Science, Engineering and Information Technology (IJSRCSEIT), 5(2).
+https://ijsrcseit.com/paper/CSEIT206219.pdf
+3.	Nandi, D., Mandal, M., & Ghosh, A. (2021). Automated Video Interview Assessment using Deep Learning Techniques. International Journal of Engineering Research & Technology (IJERT).
+https://www.ijert.org/automated-video-interview-assessment-using-deep-learning-techniques
+
+YouTube Video Resources
+1.	How AI Is Changing Recruitment – Forbes
+https://www.youtube.com/watch?v=Y_PzK5uKjKQ
+2.	Build a Resume Screening AI using Python and NLP – Krish Naik
+https://www.youtube.com/watch?v=JQxmSbXk29g
+3.	Emotion Detection from Facial Expressions Using Python – Tech With Tim
+https://www.youtube.com/watch?v=8zQ_o-QHNaU
+4.	Speech Emotion Recognition using Python – CodeBasics
+https://www.youtube.com/watch?v=nr1_WTEQBkw
+
+Google & Blogs
+1.	Google AI Blog – Using AI for Hiring and Resume Analysis
+https://ai.googleblog.com
+2.	Towards Data Science – How to Build an AI Interviewer
+https://towardsdatascience.com/how-to-build-an-ai-interviewer-4ab5091dc33d
+3.	Analytics Vidhya – Natural Language Processing (NLP) for Beginners
+https://www.analyticsvidhya.com/blog/2021/06/natural-language-processing-nlp-for-beginners/
+4.	IBM Blog – AI in Human Resources: Applications and Ethics
+https://www.ibm.com/blogs/watson/2020/11/how-ai-is-changing-hr/
+
+Official Documentation
+1.	Google Speech-to-Text API
+https://cloud.google.com/speech-to-text/docs
+2.	OpenCV (Computer Vision Library)
+https://docs.opencv.org
+3.	NLTK – Natural Language Toolkit Documentation
+https://www.nltk.org
+4.	Flask Framework Documentation
+https://flask.palletsprojects.com
