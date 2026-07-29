@@ -1,4 +1,4 @@
-# Btech-DS-
+
 Project Topic - SmartHire : AI Interview Platform
 
 # Abstract
